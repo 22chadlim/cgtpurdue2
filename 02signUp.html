@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Sign Up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/signUp.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./img/ThePurdueGallery-logo.png" />
+    <script src="./javascript/signUp.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form action="signUp.php" method="post" onsubmit="return confirm_error()">
+            <form action="check_duplicate.php" method="post">
+                <div class="form-group">
+                    <!--Check duplicate id-->
+                    <div class="input-row">
+                        <label for="email" class="input-label">ID:</label>
+                        <input type="text" id="email" name="email" required onfocus="clearDefaultValue(this)"
+                            placeholder="example@abc.com">
+                        <button type="button" onclick="id_duplication()" class="custom-button">Check 
+                            Availability</button>
+                    </div>
+                    <div class="error-message">
+                        <p id="duplicate_message"></p>
+                    </div>
+
+                    <!--SignUp-->
+                    <div class="form-group">
+                        <div class="input-row">
+                            <label for="name" class="input-label">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="input-row">
+                            <label for="password" class="input-label">Password:</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="error-message"></div>
+                        <div class="input-row">
+                            <label for="password_confirm" class="input-label">Password Confirm:</label>
+                            <input type="password" id="password_confirm" name="password_confirm" required>
+                        </div>
+                        <div class="error-message">
+                            <p id="password_confirm_error"></p>
+                        </div>
+                        <div class="error-message">
+                            <p id="confirm-error"></p>
+                        </div>
+                    </div>
+                    <input type="submit" onclick="confirm_error()" value="Sign Up" name="SignUp">
+            </form>
+        </form>
+        <button class="gobackBtn">
+            <a class=goback href="./index.html">Go to Home</a>
+        </button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,560 @@
+/* screen - trending */
+.h-8 {
+  width:70px;
+  height:auto;
+}
+
+.trending {
+  background-color: var(--white);
+  position:relative;
+  bottom: 200px;
+  right: 1000px;
+}
+
+.trending .tktkwlswls1 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 403px;
+  object-fit: cover;
+  position: absolute;
+  top: 492px;
+  width: 146px;
+}
+
+.trending .overlap-group2 {
+  align-items: center;
+  background-color: var(--onyx);
+  display: flex;
+  height: 195px;
+  left: 0;
+  min-width: 1920px;
+  padding: 35px 41px;
+  position: absolute;
+  top: 0;
+}
+
+.trending .thepurduegallery {
+  -webkit-backdrop-filter: blur(30px) brightness(115%);
+  align-self: flex-end;
+  backdrop-filter: blur(30px) brightness(115%);
+  letter-spacing: 0;
+  line-height: 40px;
+  min-height: 122px;
+  min-width: 138px;
+  text-shadow: 0px 3px 6px #00000029;
+  white-space: nowrap;
+}
+
+.trending .icon-material-home {
+  height: 43px;
+  margin-bottom: 7.82px;
+  margin-left: 211px;
+  width: 51px;
+}
+
+.trending .icon-material-assistant {
+  height: 55px;
+  margin-left: 87px;
+  margin-top: 0.15px;
+  width: 47px;
+}
+
+.trending .icon-material-sharp-auto-awesome-motion {
+  height: 54px;
+  margin-left: 87px;
+  margin-top: 0.15px;
+  object-fit: cover;
+  width: 54px;
+}
+
+.trending .icon-material-people-alt {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 69px;
+  margin-top: 0.15px;
+  min-width: 59px;
+}
+
+.trending .path-container {
+  height: 47px;
+  margin-top: 0;
+  position: relative;
+  width: 59px;
+}
+
+.trending .path-1 {
+  height: 20px;
+  left: 42px;
+  object-fit: cover;
+  position: absolute;
+  top: 27px;
+  width: 17px;
+}
+
+.trending .path-2 {
+  height: 24px;
+  left: 11px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 21px;
+}
+
+.trending .path-3 {
+  height: 47px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 48px;
+}
+
+.trending .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 44px;
+  display: flex;
+  height: 69px;
+  margin-left: 117px;
+  margin-top: 0.15px;
+  min-width: 647px;
+  padding: 13.9px 29.2px;
+}
+
+.trending .icon-material-log-in {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-left: 151px;
+  margin-top: 4.18px;
+  min-width: 60px;
+  padding: 0 0.0px;
+}
+
+.trending .path-container-1 {
+  height: 70px;
+  position: relative;
+  width: 60px;
+}
+
+.trending .text-1 {
+  left: 362px;
+  top: 502px;
+}
+
+.trending .tktkwlswls22 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 403px;
+  object-fit: cover;
+  position: absolute;
+  top: 659px;
+  width: 146px;
+}
+
+.trending .text-2 {
+  left: 362px;
+  top: 668px;
+}
+
+.trending .tkwls22 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 403px;
+  object-fit: cover;
+  position: absolute;
+  top: 826px;
+  width: 146px;
+}
+
+.trending .text-3 {
+  left: 362px;
+  top: 836px;
+}
+
+.trending .bada4 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 696px;
+  object-fit: cover;
+  position: absolute;
+  top: 492px;
+  width: 146px;
+}
+
+.trending .text-4 {
+  left: 655px;
+  top: 502px;
+}
+
+.trending .contemporary5 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 696px;
+  object-fit: cover;
+  position: absolute;
+  top: 659px;
+  width: 146px;
+}
+
+.trending .text-5 {
+  left: 655px;
+  top: 668px;
+}
+
+.trending .contemporary1 {
+  left: 696px;
+  top: 826px;
+}
+
+.trending .text-6 {
+  left: 655px;
+  top: 836px;
+}
+
+.trending .title {
+  left: 362px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 395px;
+  white-space: nowrap;
+}
+
+.trending .x3 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 1124px;
+  object-fit: cover;
+  position: absolute;
+  top: 492px;
+  width: 146px;
+}
+
+.trending .text-7 {
+  left: 1083px;
+  top: 502px;
+}
+
+.trending .contemporary7 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 1124px;
+  object-fit: cover;
+  position: absolute;
+  top: 659px;
+  width: 146px;
+}
+
+.trending .text-8 {
+  left: 1083px;
+  top: 668px;
+}
+
+.trending .contemporary9 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 1124px;
+  object-fit: cover;
+  position: absolute;
+  top: 826px;
+  width: 146px;
+}
+
+.trending .text-9 {
+  left: 1083px;
+  top: 836px;
+}
+
+.trending .contemporary1-1 {
+  left: 1417px;
+  top: 492px;
+}
+
+.trending .text-10 {
+  left: 1376px;
+  top: 502px;
+}
+
+.trending .urban3 {
+  left: 1417px;
+  top: 659px;
+}
+
+.trending .text-11 {
+  left: 1376px;
+  top: 668px;
+}
+
+.trending .x5 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 1417px;
+  object-fit: cover;
+  position: absolute;
+  top: 826px;
+  width: 146px;
+}
+
+.trending .text-12 {
+  left: 1376px;
+  top: 836px;
+}
+
+.trending .this-week {
+  left: 1083px;
+  top: 395px;
+}
+
+.trending .urban6 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 403px;
+  object-fit: cover;
+  position: absolute;
+  top: 1153px;
+  width: 146px;
+}
+
+.trending .text-13 {
+  left: 362px;
+  top: 1162px;
+}
+
+.trending .x11 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 403px;
+  object-fit: cover;
+  position: absolute;
+  top: 1320px;
+  width: 146px;
+}
+
+.trending .text-14 {
+  left: 362px;
+  top: 1330px;
+}
+
+.trending .urban3-1 {
+  left: 403px;
+  top: 1487px;
+}
+
+.trending .text-15 {
+  left: 362px;
+  top: 1496px;
+}
+
+.trending .x4 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 696px;
+  object-fit: cover;
+  position: absolute;
+  top: 1153px;
+  width: 146px;
+}
+
+.trending .text-16 {
+  left: 655px;
+  top: 1162px;
+}
+
+.trending .urban10 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 696px;
+  object-fit: cover;
+  position: absolute;
+  top: 1320px;
+  width: 146px;
+}
+
+.trending .text-17 {
+  left: 655px;
+  top: 1330px;
+}
+
+.trending .urbarn1 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 696px;
+  object-fit: cover;
+  position: absolute;
+  top: 1487px;
+  width: 146px;
+}
+
+.trending .text-18 {
+  left: 655px;
+  top: 1496px;
+}
+
+.trending .this-month {
+  left: 362px;
+  top: 1056px;
+}
+
+.trending .artsit3 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 1128px;
+  object-fit: cover;
+  position: absolute;
+  top: 1153px;
+  width: 146px;
+}
+
+.trending .text-19 {
+  left: 1087px;
+  top: 1162px;
+}
+
+.trending .x374358_356020_36 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 1128px;
+  object-fit: cover;
+  position: absolute;
+  top: 1320px;
+  width: 146px;
+}
+
+.trending .text-20 {
+  left: 1087px;
+  top: 1330px;
+}
+
+.trending .artist1 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 1128px;
+  object-fit: cover;
+  position: absolute;
+  top: 1487px;
+  width: 146px;
+}
+
+.trending .text-21 {
+  left: 1087px;
+  top: 1496px;
+}
+
+.trending .artist2 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 1421px;
+  object-fit: cover;
+  position: absolute;
+  top: 1153px;
+  width: 146px;
+}
+
+.trending .text-22 {
+  left: 1380px;
+  top: 1162px;
+}
+
+.trending .artsit4 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 1421px;
+  object-fit: cover;
+  position: absolute;
+  top: 1320px;
+  width: 146px;
+}
+
+.trending .text-23 {
+  left: 1380px;
+  top: 1330px;
+}
+
+.trending .lhj_0318_ {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  left: 1421px;
+  object-fit: cover;
+  position: absolute;
+  top: 1487px;
+  width: 146px;
+}
+
+.trending .text-24 {
+  left: 1380px;
+  top: 1496px;
+}
+
+.trending .rising-artists {
+  left: 1087px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 1056px;
+  white-space: nowrap;
+}
+
+.trending .trending-1 {
+  left: 900px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 278px;
+  white-space: nowrap;
+}
+
+.trending .contemporary1-2 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  object-fit: cover;
+  position: absolute;
+  width: 146px;
+}
+
+.trending .text {
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.trending .this {
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.trending .urban3-2 {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 135px;
+  object-fit: cover;
+  position: absolute;
+  width: 146px;
+}

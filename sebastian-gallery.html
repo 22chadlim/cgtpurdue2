@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sebastian-Gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="./img/ThePurdueGallery-logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/sebastian-gallery.css" />
+  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+  <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .h-8 {
+      width: 70px;
+      height: auto;
+    }
+
+    #jb-container {
+      width: 940px;
+      margin: 10px auto;
+      padding: 20px;
+      border: 1px solid #bcbcbc;
+    }
+
+    .artist3 img,
+    .icon-awesome-container img,
+    .a-master-of-maritime img,
+    .untitled_3 {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .gallery,
+    .about {
+      font-size: 50px;
+      margin-top: 20px;
+    }
+
+    .about {
+      text-decoration: underline white;
+    }
+
+    .gallery {
+      text-decoration: underline grey;
+    }
+
+    .col-md-6 {
+      flex: 3;
+      margin-top: 65px;
+      margin-left: 10px;
+    }
+
+    .col-md-6 .flex-row {
+      margin-left: 30px;
+    }
+
+    .col-md-6 h1 {
+      font-size: 40px;
+      margin-left: 80px;
+      margin-top: 10px;
+    }
+
+    .icon-awesome-container img {
+      width: 40px;
+      height: 36px;
+    }
+
+    .artist3 img,
+    .a-master-of-maritime img,
+    .untitled_3 {
+      width: 350px;
+    }
+
+    .flex-row-2 .urban9,
+    .flex-row-2 .BADA3,
+    .flex-row-3 .BADA4,
+    .flex-row-3 .ocean,
+    .flex-col-4 .BADA8,
+    .flex-col-4 .BADA8 {
+      max-width: 150%;
+    }
+
+    .flex-row-2 .urban9 {
+      height: 300px;
+      margin-top: 5px;
+    }
+
+    .flex-row-2 .BADA3 {
+      max-width: 100%;
+      height: 300px;
+      object-fit: cover;
+      margin-top: 5px;
+      margin-left: 13px;
+    }
+
+    .flex-row-3 .BADA4 {
+      height: 470px;
+      max-width: 110%;
+      object-fit: cover;
+      margin-top: 0px;
+    }
+
+    .flex-row-3 .ocean {
+      max-width: 100%;
+      height: 300px;
+      object-fit: cover;
+      margin-top: 0px;
+      margin-left: 17px;
+    }
+
+    .flex-col-4 .BADA9 {
+      height: 280px;
+    }
+
+    .flex-col-4 .BADA8 {
+      height: 150px;
+      max-width: 150%;
+      object-fit: cover;
+      margin-top: -10px;
+    }
+
+    .thepurduegallery-1 img {
+      max-width: 100%;
+      height: auto;
+      width: 40px;
+      background-color: black;
+    }
+
+    .flex-row-1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .about {
+      margin-right: 20px;
+    }
+
+    .flex-row-2,
+    .flex-row-3,
+    .flex-col-4 {
+      margin-top: 20px;
+    }
+
+    .col-md-6 {
+      flex: 5.5;
+    }
+
+    .col-md-6:last-child {
+      flex: 4.5
+    }
+
+    .col-md-6:last-child .flex-col-2 {
+      margin-top: -10px;
+    }
+
+    .col-md-6 h1 {
+      font-size: 40px;
+      margin-left: 80px;
+    }
+
+    .a-master-of-maritime {
+      font-size: 20px;
+      margin-top: 30px;
+    }
+
+    .icon-awesome-container {
+      margin-top: 15px;
+    }
+
+    .icon-awesome-container {
+      display: flex;
+      justify-content: flex-start;
+      gap: 30px;
+      margin-left: 50px;
+    }
+
+    .flex-row .untitled_3 {
+      width: 150px;
+      margin-left: -10px;
+      margin-top: 40px;
+    }
+
+    .gallery,
+    .about {
+      font-size: 35px;
+      margin-top: 20px;
+      margin-bottom: 45px;
+    }
+
+    .flex-row-4 {
+      justify-content: flex-start;
+      gap: 110px;
+      margin-left: -20px;
+    }
+
+    .about {
+      text-decoration: underline white;
+    }
+
+    .flex-row-4 .about {
+      margin-top: 30px;
+    }
+
+    .gallery {
+      text-decoration: underline grey;
+    }
+
+    .col-md-6 {
+      flex: 3;
+      margin-top: 65px;
+      margin-left: 10px;
+    }
+
+    .col-md-6 .flex-row {
+      margin-left: 30px;
+    }
+
+    .col-md-6 h1 {
+      font-size: 40px;
+      margin-left: 80px;
+      margin-top: 10px;
+    }
+
+    .artist3 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!--menu bar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-0 py-3">
+    <div class="container-xl">
+      <!-- Logo -->
+      <a class="navbar-brand" href="./index.html">
+        <img src="./img/ThePurdueGallery-logo.png" class="h-8" alt="logo">
+      </a>
+      <!-- Navbar toggle -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!-- Nav -->
+        <div class="navbar-nav mx-lg-auto">
+          <a class="nav-item nav-link" href="./index.html">Home</a>
+          <a class="nav-item nav-link" href="./trending.html">Trending</a>
+          <a class="nav-item nav-link active" href="./artists.html" aria-current="page">Artists</a>
+          <a class="nav-item nav-link" href="./AboutUs.html">About</a>
+        </div>
+        <div class=" row mt-0">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+        <!-- Right navigation -->
+        <div class="navbar-nav ms-lg-4">
+          <a class="nav-item nav-link" href="./01login.html">Log in</a>
+        </div>
+        <!-- Action -->
+        <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
+          <a href="./02signUp.html" class="btn btn-sm btn-primary w-full w-lg-auto"
+            style="background-color: rgb(255, 225, 127); color:black; border: none;">
+            Sign up
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Column 1 -->
+      <div class="col-md-6">
+        <div class="flex-row">
+          <div class="flex-col">
+            <div class="artist3"><img class="img-fluid artist1" src="img/artsit3-3@1x.png" alt="artsit3" /></div>
+            <h1 class="name helveticaneue-regular-normal-dove-gray-50px">Sebastian Vega</h1>
+            <div class="icon-awesome-container">
+              <img class="img-fluid icon-awesome-instagram" src="img/icon-awesome-instagram-3@1x.png"
+                alt="Icon awesome-instagram" />
+              <img class="img-fluid icon-awesome-twitter" src="img/icon-awesome-twitter-3@1x.png"
+                alt="Icon awesome-twitter" />
+              <img class="img-fluid icon-awesome-linkedin" src="img/icon-awesome-linkedin-1@1x.png"
+                alt="Icon awesome-linkedin" />
+              <img class="img-fluid icon-awesome-artstation" src="img/icon-awesome-artstation-1@1x.png"
+                alt="Icon awesome-artstation" />
+            </div>
+            <p class="a-master-of-maritime helveticaneue-regular-normal-dove-gray-27px">
+              A master of maritime artistry, this artist immerses <br />themselves in the beauty of the sea. Through
+              <br />meticulous strokes, they bring seascapes to life, <br />transcending the ordinary to create a visual
+              odyssey <br />that invites viewers to contemplate the profound <br />connection between humanity and the
+              ocean.
+            </p>
+            <img class="img-fluid untitled_3" src="img/untitled-3-1@1x.png" alt="Untitled_3" />
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- Column 2 -->
+      <div class="col-md-6">
+        <div class="flex-col-2 flex-col-5">
+          <div class="flex-col-3 flex-col-5">
+            <div class="flex-row-1 flex-row-4">
+              <div class="gallery helveticaneue-medium-dove-gray-50px">Gallery</div>
+              <a href="sebastian-about.html">
+                <div class="about helveticaneue-medium-dove-gray-50px">About</div>
+              </a>
+            </div>
+            <div class="flex-row-2 flex-row-4">
+              <img class="img-fluid urban9" src="img/urban9@1x.png" alt="urban9" />
+              <img class="img-fluid BADA3" src="img/bada3@1x.png" alt="BADA3" />
+            </div>
+          </div>
+          <div class="flex-row-3 flex-row-4">
+            <div class="oriental-container">
+              <img class="img-fluid BADA4" src="img/bada4@1x.png" alt="BADA4" />
+              <img class="img-fluid ocean" src="img/ocean@1x.png" alt="ocean" />
+            </div>
+            <div class="flex-col-4 flex-col-5">
+              <img class="img-fluid BADA9" src="img/bada9@1x.png" alt="BADA9" />
+              <img class="img-fluid BADA8" src="img/bada8-1@1x.png" alt="BADA8" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Trending</a></li>
+      <li class="nav-item"><a href="./artists.html" class="nav-link px-2 text-body-secondary">Artists</a></li>
+      <li class="nav-item"><a href="./AboutUs.html" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2023 CGT141, Team DIM</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/656fdbb4f61393768a5cfd95.656fdbb4f61393768a5cfd98.DJCfm7h.hcp.png");
+
+@font-face {
+  font-family: "HelveticaNeue-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/HelveticaNeue Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HelveticaNeue-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/HelveticaNeueMed.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CircularStd Bold-Regular";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/circular-bold.otf") format("opentype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.icon-ionic-ios-search {
+  height: 39px;
+  object-fit: cover;
+  width: 39px;
+}
+
+.path-4 {
+  height: 70px;
+  left: 14px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 46px;
+}
+
+.path-5 {
+  height: 35px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 48px;
+}
+
+.about {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 58px;
+  white-space: nowrap;
+}
+
+.thepurduegallery-1 {
+  -webkit-backdrop-filter: blur(30px) brightness(115%);
+  backdrop-filter: blur(30px) brightness(115%);
+  letter-spacing: 0;
+  line-height: 40px;
+  min-height: 122px;
+  min-width: 138px;
+  text-shadow: 0px 3px 6px #00000029;
+  white-space: nowrap;
+}
+
+.icon-material {
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.flex {
+  align-items: flex-start;
+  display: flex;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./img/ThePurdueGallery-logo.png" />
+    <link href="./css/login.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class = "container">
+        <h2>Login</h2>
+        <form action="./login.php" method="post">
+            <div class="form-group">
+                <div class="input-row">
+                    <label for="email" class="input-label">ID:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-row">
+                    <label for="password" class="input-label">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+            </div>
+            <input type="submit" value="Login">
+            <div class="signup-link">
+                <a href="./02signUp.html">Sign Up</a>
+            </div>
+        </form>
+        <button>
+            <a class=goback href="./index.html">Go to Home</a>
+        </button>
+    </div>
+</body>
+
+</html>

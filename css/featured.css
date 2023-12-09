@@ -1,0 +1,250 @@
+/* screen - featured */
+
+.featured {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  height: 2446px;
+  width: 1920px;
+}
+
+.featured .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 1190px;
+  width: 1920px;
+}
+
+.featured .overlap-group2 {
+  align-items: center;
+  background-color: var(--onyx);
+  display: flex;
+  height: 195px;
+  min-width: 1920px;
+  padding: 35px 41px;
+}
+
+.featured .thepurduegallery {
+  align-self: flex-end;
+}
+
+.featured .icon-material-home {
+  height: 43px;
+  margin-bottom: 7.82px;
+  margin-left: 211px;
+  object-fit: cover;
+  width: 51px;
+}
+
+.featured .icon-material-assistant {
+  height: 55px;
+  margin-left: 87px;
+  margin-top: 0.15px;
+  object-fit: cover;
+  width: 47px;
+}
+
+.featured .icon-material-sharp-auto-awesome-motion {
+  cursor: pointer;
+  height: 54px;
+  margin-left: 87px;
+  margin-top: 0.15px;
+  object-fit: cover;
+  width: 54px;
+}
+
+.featured .icon-material-people-alt {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 69px;
+  margin-top: 0.15px;
+  min-width: 59px;
+}
+
+.featured .path-container {
+  height: 47px;
+  position: relative;
+  width: 59px;
+}
+
+.featured .path-1 {
+  height: 20px;
+  left: 42px;
+  object-fit: cover;
+  position: absolute;
+  top: 27px;
+  width: 17px;
+}
+
+.featured .path-2 {
+  height: 24px;
+  left: 11px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 21px;
+}
+
+.featured .path-3 {
+  height: 47px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 48px;
+}
+
+.featured .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 44px;
+  display: flex;
+  height: 69px;
+  margin-left: 117px;
+  margin-top: 0.15px;
+  min-width: 647px;
+  padding: 13.9px 29.2px;
+}
+
+.featured .path-container-1 {
+  height: 70px;
+  margin-left: 151px;
+  margin-top: 4.18px;
+  position: relative;
+  width: 60px;
+}
+
+.featured .title {
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-left: 3.0px;
+  margin-top: 56px;
+  min-height: 58px;
+  min-width: 277px;
+  white-space: nowrap;
+}
+
+.featured .urban10 {
+  border-radius: 41px;
+  cursor: pointer;
+  height: 854px;
+  margin-left: 1.0px;
+  margin-top: 27px;
+  object-fit: cover;
+  width: 1399px;
+}
+
+.featured .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 21px;
+  height: 974px;
+  margin-left: 1.0px;
+  min-width: 1399px;
+}
+
+.featured .flex-col-1 {
+  align-items: center;
+  gap: 17px;
+  min-height: 974px;
+  width: 477px;
+}
+
+.featured .theme1 {
+  border-radius: 41px;
+  cursor: pointer;
+  height: 336px;
+  margin-left: 5.0px;
+  object-fit: cover;
+  width: 472px;
+}
+
+.featured .bada8 {
+  border-radius: 41px;
+  cursor: pointer;
+  height: 621px;
+  margin-right: 5.0px;
+  object-fit: cover;
+  width: 472px;
+}
+
+.featured .flex-col-2 {
+  align-items: flex-start;
+  gap: 38px;
+  min-height: 974px;
+  width: 402px;
+}
+
+.featured .urban7 {
+  border-radius: 41px;
+  cursor: pointer;
+  height: 567px;
+  object-fit: cover;
+  width: 402px;
+}
+
+.featured .contemporary1 {
+  border-radius: 41px;
+  cursor: pointer;
+  height: 369px;
+  object-fit: cover;
+  width: 402px;
+}
+
+.featured .flex-col-3 {
+  align-items: center;
+  min-height: 962px;
+  width: 478px;
+}
+
+.featured .contemporary7 {
+  border-radius: 41px;
+  cursor: pointer;
+  height: 336px;
+  object-fit: cover;
+  width: 478px;
+}
+
+.featured .bada3 {
+  border-radius: 41px;
+  cursor: pointer;
+  height: 337px;
+  margin-right: 6.0px;
+  margin-top: 17px;
+  object-fit: cover;
+  width: 464px;
+}
+
+.featured .overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--onyx);
+  border-radius: 41px;
+  display: flex;
+  height: 198px;
+  margin-right: 6.0px;
+  margin-top: 74px;
+  min-width: 446px;
+  padding: 37px 59px;
+}
+
+.featured .flex-col-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured .thepurduegallery-2 {
+  -webkit-backdrop-filter: blur(30px) brightness(115%);
+  backdrop-filter: blur(30px) brightness(115%);
+  letter-spacing: 0;
+  line-height: 40px;
+  min-height: 122px;
+  min-width: 138px;
+  text-shadow: 0px 3px 6px #00000029;
+  white-space: nowrap;
+}
