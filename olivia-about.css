@@ -1,0 +1,245 @@
+/* screen - olivia-about */
+
+.olivia-about {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 196px;
+  height: 2317px;
+  width: 1920px;
+}
+
+.olivia-about .overlap-group2 {
+  align-items: center;
+  background-color: var(--onyx);
+  display: flex;
+  height: 195px;
+  min-width: 1920px;
+  padding: 35px 41px;
+}
+
+.olivia-about .thepurduegallery {
+  -webkit-backdrop-filter: blur(30px) brightness(115%);
+  align-self: flex-end;
+  backdrop-filter: blur(30px) brightness(115%);
+  letter-spacing: 0;
+  line-height: 40px;
+  min-height: 122px;
+  min-width: 138px;
+  text-shadow: 0px 3px 6px #00000029;
+  white-space: nowrap;
+}
+
+.olivia-about .icon-material-home {
+  height: 43px;
+  margin-bottom: 7.82px;
+  margin-left: 211px;
+  width: 51px;
+}
+
+.olivia-about .icon-material-assistant {
+  height: 55px;
+  margin-left: 87px;
+  margin-top: 0.15px;
+  width: 47px;
+}
+
+.olivia-about .icon-material-sharp-auto-awesome-motion {
+  cursor: pointer;
+  height: 54px;
+  margin-left: 87px;
+  margin-top: 0.15px;
+  object-fit: cover;
+  width: 54px;
+}
+
+.olivia-about .icon-material-people-alt {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.44px;
+  margin-left: 69px;
+  min-width: 68px;
+}
+
+.olivia-about .path-container {
+  height: 55px;
+  margin-top: 0;
+  position: relative;
+  width: 68px;
+}
+
+.olivia-about .path-1 {
+  height: 24px;
+  left: 48px;
+  object-fit: cover;
+  position: absolute;
+  top: 31px;
+  width: 20px;
+}
+
+.olivia-about .path-2 {
+  height: 27px;
+  left: 12px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.olivia-about .path-3 {
+  height: 55px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 56px;
+}
+
+.olivia-about .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 44px;
+  display: flex;
+  height: 69px;
+  margin-left: 107px;
+  margin-top: 0.15px;
+  min-width: 647px;
+  padding: 13.9px 29.2px;
+}
+
+.olivia-about .icon-material-log-in {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 151px;
+  margin-top: 4.18px;
+  min-width: 60px;
+}
+
+.olivia-about .path-container-1 {
+  height: 70px;
+  position: relative;
+  width: 60px;
+}
+
+.olivia-about .flex-row {
+  gap: 150px;
+  height: 903px;
+  margin-left: 6.56px;
+  min-width: 1589px;
+}
+
+.olivia-about .artist1 {
+  border-radius: 229.5px;
+  height: 459px;
+  object-fit: cover;
+  width: 459px;
+}
+
+.olivia-about .flex-col {
+  align-self: flex-end;
+  flex-direction: column;
+  gap: 63px;
+  min-height: 900px;
+  width: 980px;
+}
+
+.olivia-about .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 371px;
+  min-width: 980px;
+}
+
+.olivia-about .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 313px;
+  width: 336px;
+}
+
+.olivia-about .gallery {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-left: 41.14px;
+  min-height: 58px;
+  white-space: nowrap;
+}
+
+.olivia-about .name {
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-top: 113px;
+  min-height: 58px;
+  white-space: nowrap;
+}
+
+.olivia-about .icon-awesome-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 43px;
+  margin-left: 0;
+  margin-top: 33px;
+  min-width: 336px;
+}
+
+.olivia-about .icon-awesome-instagram {
+  align-self: flex-end;
+  height: 51px;
+  object-fit: cover;
+  width: 51px;
+}
+
+.olivia-about .icon-awesome-twitter {
+  align-self: center;
+  height: 45px;
+  margin-bottom: 0;
+  object-fit: cover;
+  width: 55px;
+}
+
+.olivia-about .icon-awesome-linkedin {
+  height: 48px;
+  object-fit: cover;
+  width: 49px;
+}
+
+.olivia-about .icon-awesome-artstation {
+  height: 46px;
+  object-fit: cover;
+  width: 52px;
+}
+
+.olivia-about .title {
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-left: 13px;
+  min-height: 58px;
+  min-width: 133px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.olivia-about .untitled_3 {
+  align-self: flex-end;
+  height: 203px;
+  margin-left: 295px;
+  object-fit: cover;
+  width: 203px;
+}
+
+.olivia-about .capturing-the-essenc {
+  letter-spacing: 0;
+  line-height: 27px;
+  min-height: 466px;
+  white-space: nowrap;
+}
+

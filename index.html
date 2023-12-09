@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="./img/ThePurdueGallery-logo.png">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Purdue Gallery</title>
+
+  <style>
+    .h-8 {
+      width: 70px;
+      height: auto;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!--menu bar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-0 py-3">
+    <div class="container-xl">
+
+      <!-- Logo -->
+      <a class="navbar-brand" href="./index.html">
+        <img src="./img/ThePurdueGallery-logo.png" class="h-8" alt="logo">
+      </a>
+
+      <!-- Navbar toggle -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!-- Nav -->
+        <div class="navbar-nav mx-lg-auto">
+          <a class="nav-item nav-link active" href="#" aria-current="page">Home</a>
+          <a class="nav-item nav-link" href="./trending.html">Trending</a>
+          <a class="nav-item nav-link" href="./artists.html">Artists</a>
+          <a class="nav-item nav-link" href="./AboutUs.html">About</a>
+        </div>
+
+        <div class=" row mt-0">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+        <!-- Right navigation -->
+        <div class="navbar-nav ms-lg-4">
+          <a class="nav-item nav-link" href="./01login.html">Log in</a>
+        </div>
+        <!-- Action -->
+        <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
+          <a href="./02signUp.html" class="btn btn-sm btn-primary w-full w-lg-auto"
+            style="background-color: rgb(255, 225, 127); color:black; border: none;">
+            Sign up
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!---->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <!--indicators-->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <!--slideshow-->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/hokusai01.jpg" alt="hokusai01" class="d-block w-100 img-fluid">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/hokusai02.jpg" alt="hokusai02" class="d-block w-100 img-fluid">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/hokusai03.jpg" alt="hokusai03" class="d-block w-100 img-fluid">
+      </div>
+    </div>
+
+    <!--left and right controls/icons-->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+
+  </div>
+
+  <div class="container-fluid">
+    <div class="row mt-5">
+      <div class="col-sm-6">
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.seattletimes.com/entertainment/visual-arts/5-highlights-of-seattle-art-museums-new-hokusai-exhibit/">
+
+          </iframe>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.theartnewspaper.com/2023/03/07/an-experts-guide-to-hokusai-four-must-read-books-on-the-japanese-artist">
+
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row mt-5">
+      ㅤ
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="./trending.html" class="nav-link px-2 text-body-secondary">Trending</a></li>
+      <li class="nav-item"><a href="./artists.html" class="nav-link px-2 text-body-secondary">Artists</a></li>
+      <li class="nav-item"><a href="./AboutUs.html" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2023 CGT141, Team DIM</p>
+  </footer>
+
+</body>
+
+</html>

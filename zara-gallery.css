@@ -1,0 +1,562 @@
+/* screen - zara-gallery */
+
+.zara-gallery {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 196px;
+  height: 2317px;
+  width: 1920px;
+}
+
+.zara-gallery .overlap-group2 {
+  align-items: center;
+  background-color: var(--onyx);
+  display: flex;
+  height: 195px;
+  min-width: 1920px;
+  padding: 35px 41px;
+}
+
+.zara-gallery .thepurduegallery {
+  -webkit-backdrop-filter: blur(30px) brightness(115%);
+  align-self: flex-end;
+  backdrop-filter: blur(30px) brightness(115%);
+  letter-spacing: 0;
+  line-height: 40px;
+  min-height: 122px;
+  min-width: 138px;
+  text-shadow: 0px 3px 6px #00000029;
+  white-space: nowrap;
+}
+
+.zara-gallery .icon-material-home {
+  height: 43px;
+  margin-bottom: 7.82px;
+  margin-left: 211px;
+  width: 51px;
+}
+
+.zara-gallery .icon-material-assistant {
+  height: 55px;
+  margin-left: 87px;
+  margin-top: 0.15px;
+  width: 47px;
+}
+
+.zara-gallery .icon-material-sharp-auto-awesome-motion {
+  cursor: pointer;
+  height: 54px;
+  margin-left: 87px;
+  margin-top: 0.15px;
+  object-fit: cover;
+  width: 54px;
+}
+
+.zara-gallery .icon-material-people-alt {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.44px;
+  margin-left: 69px;
+  min-width: 68px;
+  padding: 0.0px 0;
+}
+
+.zara-gallery .path-container {
+  height: 55px;
+  position: relative;
+  width: 68px;
+}
+
+.zara-gallery .path-1 {
+  height: 24px;
+  left: 48px;
+  object-fit: cover;
+  position: absolute;
+  top: 31px;
+  width: 20px;
+}
+
+.zara-gallery .path-2 {
+  height: 27px;
+  left: 12px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.zara-gallery .path-3 {
+  height: 55px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 56px;
+}
+
+.zara-gallery .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 44px;
+  display: flex;
+  height: 69px;
+  margin-left: 107px;
+  margin-top: 0.15px;
+  min-width: 647px;
+  padding: 13.9px 29.2px;
+}
+
+.zara-gallery .icon-material-log-in {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-left: 151px;
+  margin-top: 4.18px;
+  min-width: 60px;
+}
+
+.zara-gallery .path-container-1 {
+  height: 70px;
+  position: relative;
+  width: 60px;
+}
+
+.zara-gallery .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 101px;
+  height: 1761px;
+  margin-right: 36.86px;
+  min-width: 1753px;
+}
+
+.zara-gallery .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 1158px;
+  width: 632px;
+}
+
+.zara-gallery .artist1 {
+  display: flex;
+  height: 459px;
+  margin-right: 2.0px;
+  width: 459px;
+}
+
+.zara-gallery .artist2 {
+  border-radius: 229.5px;
+  flex: 1;
+  object-fit: cover;
+  width: 459px;
+}
+
+.zara-gallery .title {
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-right: 28.03px;
+  margin-top: 58px;
+  min-height: 58px;
+  min-width: 274px;
+  white-space: nowrap;
+}
+
+.zara-gallery .icon-awesome-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 43px;
+  margin-right: 19.62px;
+  margin-top: 14px;
+  min-width: 336px;
+}
+
+.zara-gallery .icon-awesome-instagram {
+  align-self: flex-end;
+  height: 51px;
+  object-fit: cover;
+  width: 51px;
+}
+
+.zara-gallery .icon-awesome-twitter {
+  align-self: center;
+  height: 45px;
+  margin-bottom: 0;
+  object-fit: cover;
+  width: 55px;
+}
+
+.zara-gallery .icon-awesome-linkedin {
+  height: 48px;
+  object-fit: cover;
+  width: 49px;
+}
+
+.zara-gallery .icon-awesome-artstation {
+  height: 46px;
+  object-fit: cover;
+  width: 52px;
+}
+
+.zara-gallery .at-the-forefront-of {
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-top: 65px;
+  min-height: 218px;
+  min-width: 632px;
+  white-space: nowrap;
+}
+
+.zara-gallery .untitled_1 {
+  align-self: flex-start;
+  height: 197px;
+  margin-top: 39px;
+  object-fit: cover;
+  width: 197px;
+}
+
+.zara-gallery .flex-col-1 {
+  align-items: flex-end;
+  align-self: flex-end;
+  gap: 49px;
+  min-height: 1758px;
+  width: 1020px;
+}
+
+.zara-gallery .flex-row-1 {
+  gap: 17px;
+  height: 583px;
+  min-width: 1010px;
+}
+
+.zara-gallery .flex-col-2 {
+  align-items: center;
+  gap: 130px;
+  min-height: 583px;
+  width: 395px;
+}
+
+.zara-gallery .gallery {
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-left: 3.0px;
+  min-height: 58px;
+  min-width: 160px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.zara-gallery .contemporary5 {
+  border-radius: 41px;
+  height: 395px;
+  object-fit: cover;
+  width: 395px;
+}
+
+.zara-gallery .flex-col-3 {
+  align-items: flex-start;
+  gap: 130px;
+  min-height: 583px;
+  width: 598px;
+}
+
+.zara-gallery .contemporary8 {
+  align-self: flex-end;
+  border-radius: 41px;
+  height: 395px;
+  object-fit: cover;
+  width: 579px;
+}
+
+.zara-gallery .flex-row-2 {
+  gap: 40px;
+  height: 1126px;
+  min-width: 1020px;
+}
+
+.zara-gallery .contemporary-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+  min-height: 1126px;
+  width: 477px;
+}
+
+.zara-gallery .contemporary9 {
+  border-radius: 41px;
+  height: 682px;
+  object-fit: cover;
+  width: 477px;
+}
+
+.zara-gallery .contemporary7 {
+  border-radius: 41px;
+  height: 395px;
+  object-fit: cover;
+  width: 477px;
+}
+
+.zara-gallery .flex-col-4 {
+  align-items: flex-start;
+  min-height: 1126px;
+  width: 503px;
+}
+
+.zara-gallery .contemporary2 {
+  border-radius: 41px;
+  height: 396px;
+  object-fit: cover;
+  width: 503px;
+}
+
+.zara-gallery .contemporary1 {
+  border-radius: 41px;
+  height: 395px;
+  margin-top: 49px;
+  object-fit: cover;
+  width: 503px;
+}
+
+.zara-gallery .overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--onyx);
+  border-radius: 41px;
+  display: flex;
+  height: 198px;
+  margin-top: 88px;
+  min-width: 503px;
+  padding: 37px 78px;
+}
+
+.zara-gallery .flex-col-5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.zara-gallery .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+}
+
+.h-8 {
+  width: 70px;
+  height: auto;
+}
+
+#jb-container {
+  width: 940px;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid #bcbcbc;
+}
+
+.artist1 img,
+.icon-awesome-container img,
+.at-the-forefront-of img,
+.untitled_1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery,
+.about {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.about {
+  text-decoration: underline white;
+}
+
+.gallery {
+  text-decoration: underline grey;
+}
+
+.col-md-6 {
+  flex: 3;
+  margin-top: 65px;
+  margin-left: 10px;
+}
+
+.col-md-6 .flex-row {
+  margin-left: 30px;
+}
+
+.col-md-6 h1 {
+  font-size: 40px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.icon-awesome-container img {
+  width: 40px;
+  height: 36px;
+}
+
+.artist1 img,
+.at-the-forefront-of img,
+.untitled_1 {
+  width: 350px;
+}
+
+.flex-row-2 .contemporary5,
+.flex-row-2 .contemporary8,
+.flex-row-3 .contemporary9,
+.flex-row-3 .contemporary7,
+.flex-col-4 .contemporary2,
+.flex-col-4 .contemporary1 {
+  max-width: 150%;
+}
+
+.flex-row-2 .contemporary5 {
+  height: 300px;
+  margin-top: 5px;
+}
+
+.flex-row-2 .contemporary8 {
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+
+.flex-row-3 .contemporary9 {
+  height: 470px;
+  max-width: 110%;
+  object-fit: cover;
+  margin-top: 0px;
+}
+
+.flex-row-3 .contemporary7 {
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 0px;
+  margin-left: 17px;
+}
+
+.flex-col-4 .contemporary2 {
+  height: 280px;
+}
+
+.flex-col-4 .contemporary1 {
+  height: 150px;
+  max-width: 150%;
+  object-fit: cover;
+  margin-top: -10px;
+}
+
+.thepurduegallery-1 img {
+  max-width: 100%;
+  height: auto;
+  width: 40px;
+  background-color: black;
+}
+
+.flex-row-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  margin-right: 20px;
+}
+
+.flex-row-2,
+.flex-row-3,
+.flex-col-4 {
+  margin-top: 20px;
+}
+
+.col-md-6 {
+  flex: 5.5;
+}
+
+.col-md-6:last-child {
+  flex: 4.5
+}
+
+.col-md-6:last-child .flex-col-2 {
+  margin-top: -10px;
+}
+
+.col-md-6 h1 {
+  font-size: 40px;
+  margin-left: 80px;
+}
+
+.at-the-forefront-of {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.icon-awesome-container {
+  margin-top: 15px;
+}
+
+.icon-awesome-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-left: 50px;
+}
+
+.flex-row .untitled_1 {
+  width: 150px;
+  margin-left: -10px;
+  margin-top: 40px;
+}
+
+.gallery,
+.about {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.flex-row-4 {
+  justify-content: flex-start;
+  gap: 110px;
+  margin-left: -20px;
+}
+
+.about {
+  text-decoration: underline white;
+}
+
+.flex-row-4 .about {
+  margin-top: 30px;
+}
+
+.gallery {
+  text-decoration: underline grey;
+}
+
+.col-md-6 {
+  flex: 3;
+  margin-top: 65px;
+  margin-left: 10px;
+}
+
+.col-md-6 .flex-row {
+  margin-left: 30px;
+}
+
+.col-md-6 h1 {
+  font-size: 40px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.artist1 {
+  margin-bottom: 20px;
+}

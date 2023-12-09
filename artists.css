@@ -1,0 +1,105 @@
+h1 {
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.h-8 {
+  width:70px;
+  height:auto;
+}
+
+.artists .icon-material-assistant {
+  height: 55px;
+  margin-left: 87px;
+  margin-top: 0.15px;
+  width: 47px;
+}
+
+.artists .icon-material-sharp-auto-awesome-motion {
+  cursor: pointer;
+  height: 54px;
+  margin-left: 87px;
+  margin-top: 0.15px;
+  object-fit: cover;
+  width: 54px;
+}
+
+.artists .icon-material-people-alt {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  margin-left: 68px;
+  margin-top: 0.15px;
+  min-width: 61px;
+}
+
+.artists .discover {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-top: 95px;
+  min-height: 58px;
+  min-width: 197px;
+  white-space: nowrap;
+}
+
+.artists .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 185px;
+  margin-left: 78px;
+  min-height: 1359px;
+  width: 201px;
+}
+
+.artists .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 185px;
+  margin-left: 87px;
+  min-height: 1359px;
+  width: 201px;
+}
+
+.artists .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 185px;
+  margin-left: 86px;
+  min-height: 1359px;
+  width: 201px;
+}
+
+.artists .artsit4 {
+  border-radius: 91px/91.5px;
+  cursor: pointer;
+  height: 201px;
+  margin-left: 1px;
+  object-fit: cover;
+  width: 200px;
+}
+
+.artists .atari {
+  border-radius: 91.5px;
+  height: 201px;
+  object-fit: cover;
+  width: 201px;
+}
+
+.artists .link-2 {
+  border-radius: 91.5px;
+  cursor: pointer;
+  height: 201px;
+  object-fit: cover;
+  width: 201px;
+}
+
+img {
+  width:310px;
+}

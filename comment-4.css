@@ -1,0 +1,126 @@
+/* screen - comment-4 */
+
+.comment-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 2317px;
+  width: 1920px;
+}
+
+.comment-4 .overlap-group2 {
+  align-items: center;
+  background-color: var(--onyx);
+  display: flex;
+  height: 195px;
+  min-width: 1920px;
+  padding: 35px 41px;
+}
+
+.comment-4 .title {
+  -webkit-backdrop-filter: blur(30px) brightness(115%);
+  align-self: flex-end;
+  backdrop-filter: blur(30px) brightness(115%);
+  letter-spacing: 0;
+  line-height: 40px;
+  min-height: 122px;
+  min-width: 138px;
+  text-shadow: 0px 3px 6px #00000029;
+  white-space: nowrap;
+}
+
+.comment-4 .icon-material-home {
+  height: 43px;
+  margin-bottom: 7.82px;
+  margin-left: 211px;
+  width: 51px;
+}
+
+.comment-4 .icon-material-assistant {
+  height: 55px;
+  margin-left: 87px;
+  margin-top: 0.15px;
+  width: 47px;
+}
+
+.comment-4 .icon-material-sharp-auto-awesome-motion {
+  cursor: pointer;
+  height: 54px;
+  margin-left: 87px;
+  margin-top: 0.15px;
+  object-fit: cover;
+  width: 54px;
+}
+
+.comment-4 .icon-material-people-alt {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 0.44px;
+  margin-left: 69px;
+  min-width: 68px;
+  padding: 0.0px 0;
+}
+
+.comment-4 .path-container {
+  height: 55px;
+  position: relative;
+  width: 68px;
+}
+
+.comment-4 .path-1 {
+  height: 24px;
+  left: 48px;
+  object-fit: cover;
+  position: absolute;
+  top: 31px;
+  width: 20px;
+}
+
+.comment-4 .path-2 {
+  height: 27px;
+  left: 12px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.comment-4 .path-3 {
+  height: 55px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 56px;
+}
+
+.comment-4 .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 44px;
+  display: flex;
+  height: 69px;
+  margin-left: 107px;
+  margin-top: 0.15px;
+  min-width: 647px;
+  padding: 13.9px 29.2px;
+}
+
+.comment-4 .icon-material-log-in {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 151px;
+  margin-top: 4.18px;
+  min-width: 60px;
+}
+
+.comment-4 .path-container-1 {
+  height: 70px;
+  position: relative;
+  width: 60px;
+}

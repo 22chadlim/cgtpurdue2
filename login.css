@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-image: url(../img/image_processing20221126-23797-ho4lj6.gif);
+  /*artwork by Nadezhda Abaneeva
+  https://dribbble.com/shots/19992260-Series-of-the-animated-backgrounds-for-the-website-Part-02
+  */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+}
+
+.input-label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 49%;
+  padding: 10px;
+  background-color: #212529;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  float: left;
+}
+
+.signup-link {
+  width: 49%;
+  padding-top:10px;
+  height: 19%;
+  clear: right;
+  text-align: center;
+  font-size: 18px;
+  background-color: #212529;
+  color: white;
+ float:right;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+button {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+}
+
+.goback {
+  color:#212529;
+}

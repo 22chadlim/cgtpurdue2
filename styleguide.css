@@ -1,0 +1,53 @@
+:root { 
+  --dove-gray: #707070;
+  --onyx: #373737;
+  --white: #ffffff;
+ 
+  --font-size-l: 30px;
+  --font-size-m: 27px;
+  --font-size-xl: 40px;
+  --font-size-xxl: 50px;
+ 
+  --font-family-circularstd_bold-regular: "CircularStd Bold-Regular", Helvetica;
+  --font-family-helveticaneue-medium: "HelveticaNeue-Medium", Helvetica;
+  --font-family-helveticaneue-regular: "HelveticaNeue-Regular", Helvetica;
+}
+.helveticaneue-medium-dove-gray-50px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-helveticaneue-medium);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.helveticaneue-medium-dove-gray-30px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-helveticaneue-medium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.circularstdbold-regular-bold-white-40px {
+  color: var(--white);
+  font-family: var(--font-family-circularstd_bold-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.helveticaneue-regular-normal-dove-gray-50px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helveticaneue-regular-normal-dove-gray-27px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
